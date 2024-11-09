@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 75px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+header>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.section-one{
+    background-image: url(https://universepublicschool.org/wp-content/uploads/2024/10/World-Science-Day-Banner-750x350.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.section-heading{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+dd{
+    margin: 0 30px;
+
+}
+.section-two{
+    padding: 10px;
+}
+.card{
+    width: 250px;
+    box-shadow: 1px 1px 1px rgb(240, 205, 140);
+    padding: 10px;
+    border-radius: 5px;
+}
+.card>a>img{
+    width: 220px;
+}
+.card>h2{
+    background-color: teal;
+    color:white;
+    padding: 2px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section-three{
+    padding: 10px;
+}
+.footer-heading{
+    text-align: center;
+}
+.video-section{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+}
